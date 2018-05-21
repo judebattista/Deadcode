@@ -10,6 +10,7 @@
 using namespace std;
 
 string hello();
+void Playgame();
 
 int main(int argc, const char * argv[]) {
     // ask for your name
@@ -17,10 +18,18 @@ int main(int argc, const char * argv[]) {
     string name;
     cin >> name;
     cout << "Nice to meet you " << name << "\n";
+    Playgame();
     return 0;
 }
 
 string hello(string name) {
     return "";
-    
+}
+
+void Playgame()
+{
+    int numberbucket=50;
+    cout<< "whats your guess";
+    int guess;
+    cin>> guess;
 }
